@@ -148,6 +148,7 @@ Covers the full stack of AI safety: alignment, interpretability, evaluation, for
 
 - [EU AI Act](https://artificialintelligenceact.eu/) - The first comprehensive AI regulation. Risk-based approach with strict requirements for high-risk systems. [Full text](https://artificialintelligenceact.eu/ai-act-explorer/).
 - [EU AI Act Toolkit](https://github.com/AbdelStark/eu-ai-act-toolkit) - Open source compliance toolkit for the EU AI Act. TypeScript SDK, CLI, and web app for AI system classification, risk assessment, checklist generation, and compliance documentation. Data-driven, no vendor lock-in.
+- [Sigil Open Framework](https://github.com/sigilcore/sigil-open-framework) — Open-source execution governance framework for autonomous AI agents. Enforces deterministic policy via ASSURANCE.md files, Ed25519 intent attestations, and a sub-2ms policy engine with no LLM or network dependency at runtime.
 - [NIST AI RMF](https://airc.nist.gov/) - US AI Risk Management Framework. Voluntary but widely referenced across industry and government.
 
 ### Fairness & Bias Tools
