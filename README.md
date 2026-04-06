@@ -194,7 +194,7 @@ Covers the full stack of AI safety: alignment, interpretability, evaluation, for
 ### Comprehensive Trust
 
 - [DecodingTrust](https://github.com/AI-secure/DecodingTrust) - Trustworthiness assessment across eight dimensions: toxicity, bias, robustness, privacy, ethics, fairness, and more.
--  [Vaultfire Protocol](https://github.com/Ghostkey316/ghostkey-316-vaultfire-init) — On-chain KYA (Know Your Agent) trust and identity layer for AI agents. ERC-8004 agent identity, accountability bonds, and privacy-preserving verification across Ethereum, Base, and Avalanche.
+-  [Vaultfire Protocol](https://github.com/Ghostkey316/ghostkey-316-vaultfire-init) — KYA (Know Your Agent) trust and identity framework for AI agents. Provides agent identity registration, accountability bonds, and privacy-preserving verification to ensure safe and transparent AI interactions.
 
 
 ---
