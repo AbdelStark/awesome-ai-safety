@@ -159,6 +159,7 @@ Covers the full stack of AI safety: alignment, interpretability, evaluation, for
 ### Governance Platforms
 
 - [Asqav](https://github.com/jagmarques/asqav-sdk) - Open-source SDK for AI agent governance with tamper-evident audit trails, tool scanning, and enforcement policies.
+- [Signet](https://github.com/Prismer-AI/signet) - Cryptographic action receipts for AI agents. Ed25519 signing, hash-chained audit trail, bilateral co-signing, policy engine, and MCP proxy. Offline-verifiable, no SaaS dependency.
 - [Credo AI](https://www.credo.ai/) - AI governance platform for EU AI Act compliance, risk assessment, and responsible AI management.
 - [Holistic AI](https://www.holisticai.com/) - AI governance and risk management platform.
 
