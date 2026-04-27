@@ -160,6 +160,7 @@ Covers the full stack of AI safety: alignment, interpretability, evaluation, for
 
 - [Asqav](https://github.com/jagmarques/asqav-sdk) - Open-source SDK for AI agent governance with tamper-evident audit trails, tool scanning, and enforcement policies.
 - [Credo AI](https://www.credo.ai/) - AI governance platform for EU AI Act compliance, risk assessment, and responsible AI management.
+- [Phionyx Core SDK](https://github.com/halvrenofviryel/phionyx-research) - Deterministic AI governance runtime with a 46-block pipeline that treats LLM outputs as noisy sensor measurements. Includes safety gates, ethics checks, audit trails, and structured state tracking.
 - [Holistic AI](https://www.holisticai.com/) - AI governance and risk management platform.
 
 ---
