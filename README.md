@@ -40,6 +40,8 @@ Covers the full stack of AI safety: alignment, interpretability, evaluation, for
 - [LLM Guard](https://github.com/protectai/llm-guard) - Self-hosted toolkit for sanitizing and securing LLM interactions. Covers prompt injection detection, PII filtering, toxicity checks.
 - [Llama Guard](https://github.com/meta-llama/PurpleLlama) - Meta's safety classifier models for content moderation of LLM inputs and outputs. Part of PurpleLlama.
 - [Alignment Handbook](https://github.com/huggingface/alignment-handbook) - Hugging Face recipes for aligning language models with human and AI preferences. Practical guides for SFT, DPO, and RLHF.
+- [ai-evaluation](https://github.com/future-agi/ai-evaluation) - LLM evaluation framework with 50+ metrics, LLM-as-Judge, and guardrail scanners (jailbreak, PII, injection).
+- [Future AGI](https://github.com/future-agi/future-agi) - Self-hostable end-to-end agent engineering platform with tracing, evals, guardrails, and gateway.
 
 ### Representation & Activation Engineering
 
@@ -90,6 +92,7 @@ Covers the full stack of AI safety: alignment, interpretability, evaluation, for
 - [EleutherAI LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) - De facto standard for LLM benchmarking across hundreds of tasks, including safety-relevant ones.
 - [Vivaria](https://github.com/METR/vivaria) - METR's tool for running AI agents on evaluation tasks. Used internally for frontier model capability assessments.
 - [METR Public Tasks](https://github.com/METR/public-tasks) - Task collections for evaluating dangerous capabilities of autonomous AI agents.
+- [traceAI](https://github.com/future-agi/traceAI) - OpenTelemetry-native tracing for LLM and agent apps with 50+ framework integrations.
 
 ### Adversarial Attacks & Jailbreaking
 
