@@ -164,6 +164,7 @@ Covers the full stack of AI safety: alignment, interpretability, evaluation, for
 - [Asqav](https://github.com/jagmarques/asqav-sdk) - Open-source SDK for AI agent governance with tamper-evident audit trails, tool scanning, and enforcement policies.
 - [Credo AI](https://www.credo.ai/) - AI governance platform for EU AI Act compliance, risk assessment, and responsible AI management.
 - [Holistic AI](https://www.holisticai.com/) - AI governance and risk management platform.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Trust scoring and x402 micropayment verification for AI agents on Solana. Enables autonomous agents to verify counterparty trustworthiness before transactions — governance infrastructure for multi-agent AI systems. ([PyPI](https://pypi.org/project/twzrd-agent-intel/) | [MCP](https://intel.twzrd.xyz/mcp))
 
 ---
 
