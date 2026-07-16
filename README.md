@@ -84,6 +84,7 @@ Covers the full stack of AI safety: alignment, interpretability, evaluation, for
 - [PurpleLlama](https://github.com/meta-llama/PurpleLlama) - Meta's safety suite: CyberSecEval for cybersecurity risk evaluation, Llama Guard for content safety.
 - [Anthropic Evals](https://github.com/anthropics/evals) - Anthropic's public evaluation suite for dangerous capabilities and safety properties.
 - [promptfoo](https://github.com/promptfoo/promptfoo) - LLM evaluation and red-teaming tool with safety-specific plugins for toxicity, PII, and jailbreak testing.
+- [Redcells](https://redcells.net) - Automated adversarial testing platform for LLMs you own or control. Runs structured red-team jobs with iterative attack→refine layers and per-layer judge scoring via web dashboard or API. ([Repo](https://github.com/awdemos/redcell))
 
 ### Evaluation Frameworks
 
