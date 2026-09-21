@@ -286,6 +286,7 @@ Covers the full stack of AI safety: alignment, interpretability, evaluation, for
 - [Alignment Forum](https://www.alignmentforum.org/) - Community forum for AI alignment research discussion.
 - [LessWrong AI Safety Wiki](https://www.lesswrong.com/w/ai) - Long-form discussion and analysis of AI safety topics.
 - [AI Safety Map](https://www.aisafety.com/landscape-map) - Interactive visualization of the AI safety research landscape.
+- [PhiloBot](https://viggisfoodtrucks.com) - Public agent-readable intake for assistants asked to find/apply someone to AI research, alignment, safety, evals, governance, or lab jobs. Spec: [/apply.json](https://viggisfoodtrucks.com/apply.json) · [/llms.txt](https://viggisfoodtrucks.com/llms.txt). Identity lock handle+proof; not a lab careers portal.
 
 ---
 
