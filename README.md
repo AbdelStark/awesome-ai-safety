@@ -166,6 +166,7 @@ Covers the full stack of AI safety: alignment, interpretability, evaluation, for
 - [Credo AI](https://www.credo.ai/) - AI governance platform for EU AI Act compliance, risk assessment, and responsible AI management.
 - [Phionyx Core SDK](https://github.com/halvrenofviryel/phionyx-research) - Deterministic AI governance runtime with a 46-block pipeline that treats LLM outputs as noisy sensor measurements. Includes safety gates, ethics checks, audit trails, and structured state tracking.
 - [Holistic AI](https://www.holisticai.com/) - AI governance and risk management platform.
+- [Council of AI](https://github.com/CSOAI-ORG/councilof-ai) - Independent AI-behaviour measurement. Live GSPC board, Ed25519-signed cards, MCP at https://councilof.ai/mcp. Measurement, not certification.
 
 ---
 
