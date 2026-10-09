@@ -2,4 +2,7 @@
 max_concurrency = 4
 max_retries = 2
 timeout = 30
-exclude = ['^https://example\.org/']
+exclude = [
+    # 2026-10-09: runner returned 403 twice; primary page manually read and verified.
+    '^https://openai\.com/safety/$',
+]
