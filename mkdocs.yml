@@ -1,12 +1,16 @@
 site_name: Awesome AI Safety
 site_url: https://abdelstark.github.io/awesome-ai-safety
-site_description: A curated collection of resources for building safe, aligned, and trustworthy AI systems.
+site_description: Tools, benchmarks and research for evaluating and reducing AI risk, with explicit evidence boundaries.
 repo_url: https://github.com/AbdelStark/awesome-ai-safety
 repo_name: AbdelStark/awesome-ai-safety
-edit_uri: edit/main/README.md
+edit_uri: ""
+exclude_docs: |
+  /overrides/
 
 nav:
   - Home: index.md
+  - Methodology: methodology.md
+  - October 2026 review: review-2026-10-09.md
   - Contributing: contributing.md
 
 theme:
@@ -38,7 +42,6 @@ theme:
     - search.suggest
     - toc.follow
     - content.tooltips
-    - content.action.edit
   icon:
     repo: fontawesome/brands/github
 

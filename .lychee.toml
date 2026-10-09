@@ -1,0 +1,5 @@
+# Blocked requests remain failures; add only dated, manually verified exceptions.
+max_concurrency = 4
+max_retries = 2
+timeout = 30
+exclude = ['^https://example\.org/']
