@@ -124,3 +124,8 @@ html {
     font-size: 0.8rem;
   }
 }
+
+.md-banner .md-typeset a {
+  color: white;
+  text-decoration: underline;
+}

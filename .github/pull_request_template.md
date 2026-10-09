@@ -1,24 +1,20 @@
-## What are you adding?
+## Proposed change
 
-- [ ] Tool / Framework
-- [ ] Paper
-- [ ] Benchmark / Dataset
-- [ ] Organization
-- [ ] Educational Resource
-- [ ] Other
+Resource, canonical URL, section, and the distinct gap it fills:
 
-## Entry details
+## Evidence
 
-**Name:**
-**URL:**
-**Description (one line):**
-**Section:**
+- Primary source and section supporting the description:
+- Project license or access/reuse terms (separate code, data and model terms):
+- Runnable example or documented independent use:
+- Maintenance status, limitations and any historical/research exception:
+- Your affiliation with the resource, if any:
 
-## Checklist
+## Checks
 
-- [ ] Link is working
-- [ ] Description is concise and accurate
-- [ ] Resource is actively maintained (if tool/framework)
-- [ ] Entry follows the existing format
-- [ ] Not a duplicate of an existing entry
-- [ ] No promotional or commercial content
+- [ ] Description states the mechanism and material limits without unsupported effectiveness claims.
+- [ ] Canonical link works and the entry is not duplicated.
+- [ ] License/access terms were read at the source.
+- [ ] Local catalog checks and strict site build pass.
+
+For research results, include the version, setup and uncertainty. For corrections or infrastructure changes, provide the relevant validation instead of filling unrelated resource fields.

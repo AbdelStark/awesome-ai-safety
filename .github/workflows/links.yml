@@ -1,0 +1,19 @@
+name: Links
+
+on:
+  schedule:
+    - cron: '17 7 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
+        with:
+          lycheeVersion: v0.24.2
+          args: --config .lychee.toml README.md CONTRIBUTING.md docs/methodology.md docs/review-*.md
