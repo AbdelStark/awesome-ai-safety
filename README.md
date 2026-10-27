@@ -41,6 +41,7 @@ A curated guide to tools, benchmarks and research for evaluating and reducing AI
 - [Inspect Evals](https://github.com/UKGovernmentBEIS/inspect_evals) - Benchmark implementations and documented tasks for Inspect; individual tasks have their own dependencies and terms.
 - [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) - General language-model benchmark runner with reusable task definitions, including safety-relevant evaluations.
 - [METR Public Tasks](https://github.com/METR/public-tasks) - Public agent capability tasks, with instructions for running legacy tasks through an Inspect bridge; a subset of METR's evaluation work.
+- [agentest](https://github.com/srpadmanabhuni/agentest) - Offline, deterministic runner that returns pass/fail/n-a verdicts for 130 agentic-AI checks (the 110-test Agentic AI Test Checklist plus 20 extensions) from OpenTelemetry GenAI traces, A2A AgentCards and MCP tool annotations; some checks are uncalibrated heuristics and results are not certification.
 
 ### Red teaming
 
