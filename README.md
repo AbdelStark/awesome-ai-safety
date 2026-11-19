@@ -61,6 +61,7 @@ A curated guide to tools, benchmarks and research for evaluating and reducing AI
 - [Inspect Petri](https://github.com/meridianlabs-ai/inspect_petri) - **Research.** Auditing agent that explores alignment hypotheses using simulated interactions and rubric-scored transcripts.
 - [CyberGym](https://github.com/sunblaze-ucb/cybergym) - Vulnerability-analysis and proof-of-concept reproduction tasks on real software; requires substantial local infrastructure and containment.
 - [Cybench](https://github.com/andyzorigin/cybench) - Capture-the-flag agent tasks with intermediate subtasks; report guided and unguided results separately.
+- [Attify Audited Resolution Standard](https://attify.app/standards/support-resolution) - Audit rules for AI support-agent resolutions from help-desk records, with a published judge prompt; draft, vendor-authored, CC BY 4.0 text.
 
 For an evaluation report, record the threat model, model and harness versions, permissions, budgets, benign utility, scorer validation, failures and uncertainty. See the [evaluation checklist](docs/methodology.md#evaluating-evaluation-results).
 
