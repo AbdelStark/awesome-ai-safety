@@ -268,6 +268,140 @@ Links lead to primary research feeds or organizational pages. Their inclusion is
 - [AI Safety Camp](https://www.aisafety.camp/) - Collaborative AI-safety research program with project-based teams.
 - [Alignment Forum](https://www.alignmentforum.org/) - Community discussion of alignment research; posts vary in evidence and review status.
 - [AI Safety Landscape Map](https://aisafety.com/map) - Community-maintained directory for discovering organizations and projects; check primary sources after discovery.
+- [AI Fairness 360](https://github.com/Trusted-AI/AIF360) - IBM's comprehensive toolkit for detecting and mitigating bias in datasets and ML models.
+- [Fairlearn](https://github.com/fairlearn/fairlearn) - Microsoft's Python library for assessing and improving AI system fairness.
+- [Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox) - Microsoft's suite for model and data exploration, error analysis, and fairness assessment.
+
+### Governance Platforms
+
+- [Asqav](https://github.com/jagmarques/asqav-sdk) - Open-source SDK for AI agent governance with tamper-evident audit trails, tool scanning, and enforcement policies.
+- [Credo AI](https://www.credo.ai/) - AI governance platform for EU AI Act compliance, risk assessment, and responsible AI management.
+- [Holistic AI](https://www.holisticai.com/) - AI governance and risk management platform.
+- [Council of AI](https://github.com/CSOAI-ORG/councilof-ai) - Independent AI-behaviour measurement. Live GSPC board, Ed25519-signed cards, MCP at https://councilof.ai/mcp. Measurement, not certification.
+
+---
+
+## Safety Benchmarks & Datasets
+
+*Standardized evaluations for measuring AI safety properties.*
+
+### Harmful Content & Toxicity
+
+- [RealToxicityPrompts](https://github.com/allenai/real-toxicity-prompts) - Allen AI dataset for evaluating neural toxic degeneration in language models.
+- [ToxiGen](https://github.com/microsoft/TOXIGEN) - Microsoft's large-scale machine-generated dataset for adversarial and implicit hate speech detection.
+- [SafetyBench](https://github.com/thu-coai/SafetyBench) - 11,435 multiple-choice questions evaluating LLM safety across multiple dimensions.
+
+### Bias & Fairness
+
+- [BBQ](https://github.com/nyu-mll/BBQ) - Bias Benchmark for QA. 58,492 hand-generated examples targeting nine social bias categories.
+- [WinoBias](https://github.com/uclanlp/corefBias) - Gender bias benchmark for coreference resolution.
+- [CrowS-Pairs](https://github.com/nyu-mll/crows-pairs) - Challenge dataset measuring social biases in masked language models.
+- [Winogender](https://github.com/rudinger/winogender-schemas) - Minimal pair sentences testing gender bias in coreference resolution.
+
+### Truthfulness & Hallucination
+
+- [TruthfulQA](https://github.com/sylinrl/TruthfulQA) - 817 questions measuring whether language models generate truthful answers.
+- [HaluEval](https://github.com/RUCAIBox/HaluEval) - Large-scale hallucination evaluation benchmark for LLMs.
+- [Hallucination Leaderboard](https://github.com/vectara/hallucination-leaderboard) - Public leaderboard measuring LLM hallucination rates.
+
+### Dangerous Capabilities
+
+- [WMDP](https://github.com/centerforaisafety/wmdp) - Weapons of Mass Destruction Proxy benchmark. Measures hazardous knowledge in biosecurity, cybersecurity, and chemical security.
+- [MACHIAVELLI](https://github.com/aypan17/machiavelli) - Benchmark measuring both competence and ethical behavior of language agents across 134 text-based scenarios.
+- [CyberSecEval](https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks) - Meta's evaluation for cybersecurity risks in LLMs (part of PurpleLlama).
+
+### Comprehensive Trust
+
+- [DecodingTrust](https://github.com/AI-secure/DecodingTrust) - Trustworthiness assessment across eight dimensions: toxicity, bias, robustness, privacy, ethics, fairness, and more.
+
+---
+
+## Foundational Papers
+
+*Essential reading, chronological order.*
+
+### Foundations & Problem Framing
+
+| Year | Paper | Key Contribution |
+|------|-------|-----------------|
+| 2012 | [The Superintelligent Will](https://nickbostrom.com/superintelligentwill.pdf) - Bostrom | Instrumental convergence thesis: advanced AI systems will converge on self-preservation and resource acquisition regardless of final goals. |
+| 2015 | [Research Priorities for Robust and Beneficial AI](https://arxiv.org/abs/1602.03506) - Russell, Dewey, Tegmark | The research agenda that launched AI safety as a serious field. |
+| 2016 | [Concrete Problems in AI Safety](https://arxiv.org/abs/1606.06565) - Amodei, Olah, Steinhardt, Christiano, Schulman | Five concrete problems: safe exploration, distributional shift, reward hacking, scalable oversight, safe interruptibility. |
+| 2019 | [Risks from Learned Optimization](https://arxiv.org/abs/1906.01820) - Hubinger, van Merwijk, Mikulik, Skalse | Mesa-optimization and deceptive alignment: models may learn internal optimizers with misaligned objectives. |
+| 2019 | [The Bitter Lesson](http://incompleteideas.net/IncIdeas/BitterLesson.html) - Sutton | General methods that leverage computation beat specialized approaches. One page. Possibly the most cited essay in ML. |
+| 2019 | [Optimal Policies Tend to Seek Power](https://arxiv.org/abs/1912.01683) - Turner, Smith, Shah, Critch | Formal proof that optimal policies tend toward power-seeking behaviors. |
+
+### Alignment Techniques
+
+| Year | Paper | Key Contribution |
+|------|-------|-----------------|
+| 2017 | [Deep RL from Human Preferences](https://arxiv.org/abs/1706.03741) - Christiano, Leike, Brown, Amodei | The foundational RLHF paper. Learning goals from human preference comparisons. |
+| 2018 | [AI Safety via Debate](https://arxiv.org/abs/1805.00899) - Irving, Christiano, Amodei | Two AI systems debate; humans judge. Scalable oversight via adversarial interaction. |
+| 2018 | [Scalable Agent Alignment via Reward Modeling](https://arxiv.org/abs/1811.07871) - Leike, Krueger, Everitt, Martic | DeepMind's research agenda: recursive reward modeling for scalable alignment. |
+| 2021 | [Goal Misgeneralization in Deep RL](https://arxiv.org/abs/2105.14111) - Langosco, Koch, Sharkey, Pfau, Krueger | First extensive study of agents pursuing wrong goals despite correct reward specification. |
+| 2022 | [Training Language Models to Follow Instructions (InstructGPT)](https://arxiv.org/abs/2203.02155) - Ouyang et al. | Applied RLHF to language models at scale. The foundation for ChatGPT. |
+| 2022 | [Constitutional AI](https://arxiv.org/abs/2212.08073) - Bai et al. | Self-supervised alignment using AI critique against written principles. Reduced reliance on human feedback for harmlessness. |
+| 2022 | [Red Teaming Language Models](https://arxiv.org/abs/2209.07858) - Ganguli et al. | Anthropic's systematic approach to discovering LLM failure modes. |
+| 2023 | [Direct Preference Optimization](https://arxiv.org/abs/2305.18290) - Rafailov, Sharma, Mitchell, Manning, Ermon, Finn | Simplified RLHF by eliminating the reward model. Closed-form policy optimization from preferences. |
+| 2023 | [Weak-to-Strong Generalization](https://arxiv.org/abs/2312.09390) - Burns, Ye, Klein, Steinhardt | Can weak models supervise strong ones? OpenAI's empirical study of the superalignment problem. |
+| 2024 | [Sleeper Agents](https://arxiv.org/abs/2401.05566) - Hubinger et al. | Demonstrated that deceptive behaviors persist through standard safety training. |
+| 2024 | [Alignment Faking](https://arxiv.org/abs/2412.14093) - Anthropic | First empirical evidence of a large language model engaging in alignment faking to avoid modification. |
+| 2024 | [Sycophancy to Subterfuge](https://arxiv.org/abs/2406.10162) - Hubinger et al. | Model organisms of misalignment: investigating how LLMs generalize from simple specification gaming to reward tampering. |
+| 2024 | [Towards Guaranteed Safe AI](https://arxiv.org/abs/2405.06624) - Dalrymple et al. | Framework combining world models, safety specifications, and verifiers for provable safety guarantees. |
+| 2026 | [Claude's New Constitution](https://www.anthropic.com/news/claude-new-constitution) - Anthropic | Comprehensive specification of Claude's values, behavior, and reasoning. A new approach to alignment via detailed specification. |
+
+---
+
+## Organizations
+
+*Research labs, institutes, and nonprofits working on AI safety.*
+
+### Frontier Labs with Safety Teams
+
+| Organization | Focus | Location |
+|-------------|-------|----------|
+| [Anthropic](https://www.anthropic.com/research) | Constitutional AI, interpretability, RSP | SF, London |
+| [Google DeepMind](https://deepmind.google/responsibility-and-safety/) | Scalable oversight, evaluations, debate | London |
+| [OpenAI Safety](https://openai.com/safety) | Preparedness, superalignment research | SF, London, Dublin |
+| [Meta FAIR](https://ai.meta.com/research/) | Open models, responsible release | Paris, NYC |
+
+### Independent Research Orgs
+
+| Organization | Focus | Location |
+|-------------|-------|----------|
+| [MIRI](https://intelligence.org/) | Agent foundations, theoretical alignment | Berkeley |
+| [Redwood Research](https://www.redwoodresearch.org/) | Control agenda, adversarial training, interpretability | SF |
+| [ARC](https://alignment.org/) | Eliciting Latent Knowledge, theoretical alignment | Berkeley |
+| [METR](https://metr.org/) | Model evaluation for dangerous autonomous capabilities | Berkeley |
+| [Center for AI Safety](https://safe.ai/) | Field-building, benchmarks, risk research | SF |
+| [FAR AI](https://far.ai/) | Practical AI safety research | Berkeley |
+| [Apollo Research](https://www.apolloresearch.ai/) | Detecting and evaluating deceptive AI behaviors | London |
+
+### Government & Policy
+
+| Organization | Focus | Location |
+|-------------|-------|----------|
+| [UK AI Security Institute](https://www.gov.uk/government/organisations/ai-safety-institute) | Pre-deployment evaluations, safety testing | London |
+| [EU AI Office](https://digital-strategy.ec.europa.eu/en/policies/ai-office) | EU AI Act implementation and enforcement | Brussels |
+| [NIST AI](https://www.nist.gov/artificial-intelligence) | AI Risk Management Framework, standards | US |
+| [Frontier Model Forum](https://www.frontiermodelforum.org/) | Industry consortium for frontier AI safety | Global |
+
+---
+
+## Courses & Educational Resources
+
+- [AGI Safety Fundamentals](https://bluedot.org/) - 8-week structured course covering core concepts of AI alignment (BlueDot Impact).
+- [ARENA](https://www.arena.education/) - Hands-on technical curriculum for alignment research engineering.
+- [ML Safety Course](https://course.mlsafety.org/) - Technical AI safety course by the Center for AI Safety. For ML researchers and engineers.
+- [David Silver's RL Course](https://deepmind.google/learning-resources/introduction-to-reinforcement-learning-with-david-silver) - 10 lectures from the creator of AlphaGo.
+- [MATS](https://www.matsprogram.org/) - Research training program for the next generation of alignment researchers. Mentored by leading safety researchers.
+- [AI Safety Camp](https://aisafety.camp/) - Collaborative research meetups where people from diverse backgrounds work on AI safety projects.
+- [Anthropic Research Blog](https://www.anthropic.com/research) - Ongoing publications on interpretability, alignment, and safety.
+- [Alignment Forum](https://www.alignmentforum.org/) - Community forum for AI alignment research discussion.
+- [LessWrong AI Safety Wiki](https://www.lesswrong.com/w/ai) - Long-form discussion and analysis of AI safety topics.
+- [AI Safety Map](https://www.aisafety.com/landscape-map) - Interactive visualization of the AI safety research landscape.
+
+---
 
 ## Contributing
 
