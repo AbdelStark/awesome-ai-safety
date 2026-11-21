@@ -48,6 +48,7 @@ A curated guide to tools, benchmarks and research for evaluating and reducing AI
 - [PyRIT](https://github.com/microsoft/PyRIT) - Generative AI red-teaming framework with attack strategies, targets, scoring and conversation records.
 - [garak](https://github.com/NVIDIA/garak) - Scanner that probes language models for failure modes such as injection, leakage and harmful generation.
 - [promptfoo](https://github.com/promptfoo/promptfoo) - Application evaluations and red-team tests with configurable prompts, assertions and attack plugins.
+- [Redline](https://github.com/kush0o7/Redline-Agent-Safety-Eval) - Runs one adversarial test set on two model versions and reports safety regressions with a significance test; single-turn only, grader accuracy not yet measured.
 - [HarmBench](https://github.com/centerforaisafety/HarmBench) - **Research.** Harmful-behavior test cases, attack methods and classifiers for comparing automated red teaming.
 - [JailbreakBench](https://github.com/JailbreakBench/jailbreakbench) - **Research.** Jailbreak robustness benchmark with shared behaviors, threat models and attack artifacts.
 - [StrongREJECT](https://github.com/dsbowen/strong_reject) - **Research.** Jailbreak benchmark and scorers that assess refusal and the usefulness of harmful responses; results depend on the judge.
