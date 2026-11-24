@@ -116,6 +116,7 @@ Features and graphs are hypotheses about computation. Validate interpretations w
 - [Llama Guard](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard) - **Restricted models.** Input/output content-safety classifiers; model terms differ from PurpleLlama's evaluation-code license.
 - [Inspect Sandboxing](https://inspect.aisi.org.uk/sandboxing.html) - Evaluation execution guide; only work explicitly routed through the sandbox interface runs inside that boundary.
 - [OWASP AI Agent Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/AI_Agent_Security_Cheat_Sheet.html) - Guidance on tool permissions, memory separation, approvals and monitoring for agent applications.
+- [Excellent for Mac](https://www.excellent.so/) - Proprietary macOS app for reviewing local coding-agent activity, with optional Pro protection for selected actions in supported agents.
 
 ### Model supply chain
 
